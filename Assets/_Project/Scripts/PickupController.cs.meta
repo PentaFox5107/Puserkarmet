@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 070e9b273f69fbe4b9de7e2c680d6e76
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerCamera: {instanceID: 0}
+  - holdPoint: {instanceID: 0}
+  - furniturePlacementController: {instanceID: 0}
+  - boxPrefab: {fileID: 4813310798457660477, guid: 056d4cdc1f15d6043bbac298aef63972, type: 3}
+  - pickupAction: {fileID: 1781555164194001046, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  - interactAction: {fileID: 8062565612073054870, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  - throwAction: {fileID: 7766860466851517272, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  - spawnBoxAction: {fileID: -5436053971622566490, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

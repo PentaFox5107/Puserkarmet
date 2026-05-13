@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2079970229198263211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6378973909820903685}
+  - component: {fileID: 3944654748281285295}
+  m_Layer: 0
+  m_Name: NPCSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6378973909820903685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079970229198263211}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180}
+--- !u!114 &3944654748281285295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079970229198263211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206aa6361aba6be4fbe298d57138e295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPCSpawner
+  npcPrefabs:
+  - {fileID: 3913314398543403040, guid: 22f8fc6d914971f4ea8f9bc05871196c, type: 3}
+  - {fileID: 8778958721214480728, guid: 9d584d4dccac9d14bad2b50d21b089de, type: 3}
+  - {fileID: 6480040263957291530, guid: 54eeb1f0e2439df499b1e8bc6b4c585d, type: 3}
+  - {fileID: 477489039945545383, guid: 45a628249e690434caba74c0ca21f44a, type: 3}
+  - {fileID: 3496052859839701578, guid: 519f99f2eccfa294d9ca1d7881ef7843, type: 3}
+  - {fileID: 1810163037484956790, guid: ff6375ee8b5b6b243a939959c7338db6, type: 3}
+  - {fileID: 6490158612382516672, guid: 006ebe0153b21204fa1401cd084fccb8, type: 3}
+  - {fileID: 8641742702920370611, guid: bb57cad9337d4564bb593e1e3e3c93dc, type: 3}
+  - {fileID: 3647428551664877990, guid: eab6882291efcc6448c7b7e6bd688797, type: 3}
+  - {fileID: 3670032970019105033, guid: 84b480a981deb394cbd0cf8ad87c0a20, type: 3}
+  routePoints: []
+  minSpawnSeconds: 2
+  maxSpawnSeconds: 5
+  navMeshSearchRadius: 1000

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70f8e3be78600614e896e1842fe5d09b, type: 3}
+  m_Name: PD_FFFAgedAdonisGruyere
+  m_EditorClassIdentifier: Assembly-CSharp::ProductData
+  productID: FFF_Aged_Adonis_Gruyere
+  brandName: Full Frontal Fromage
+  productName: Aged Adonis Gruyere
+  category: 1
+  storageType: 1
+  lowestPossiblePrice: 0.99
+  highestPossiblePrice: 9.99
+  startingPrice: 4.99
+  packageDefinition: {fileID: 11400000, guid: bae035c9ae1b5d0478bd5ba9553246d9, type: 2}
+  productTexture: {fileID: 2800000, guid: 02a4a0b4c815aa2499167e124e79703b, type: 3}
+  productIcon: {fileID: 0}
